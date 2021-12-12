@@ -2,7 +2,7 @@
 
 ### EFI of MSI Z490 Carbon Gaming WIFI Hackintosh with OpenCore
 
-+ 2021.12.12 初次提交，OpenCore版本为0.76
++ 2021.12.12 初次提交，OpenCore版本为0.76，测试系统为macOS Monterey 12.0.1 (21A559)
 
 ---
 
