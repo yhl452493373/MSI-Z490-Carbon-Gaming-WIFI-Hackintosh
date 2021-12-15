@@ -2,6 +2,7 @@
 
 ### EFI of MSI Z490 Carbon Gaming WIFI Hackintosh with OpenCore
 
+- 2021.12.15 修复睡眠后2小时会被RTC唤醒一次的问题
 - 2021.12.12 初次提交，OpenCore 版本为 0.76，测试系统为 macOS Monterey 12.0.1 (21A559)
 
 ---
