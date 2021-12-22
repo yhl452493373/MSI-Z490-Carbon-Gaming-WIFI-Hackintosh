@@ -56,3 +56,10 @@
 | 唤醒以供以网络访问                     | 取消勾选 |
 | 断电后自动启动                         | 取消勾选 |
 | 启用电能小憩                           | 取消勾选 |
+
+
+---
+
+![back-panel](/images/back-panel.png)
+
+![mb](/images/mb.png)
