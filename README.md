@@ -2,6 +2,7 @@
 
 ### EFI of MSI Z490 Carbon Gaming WIFI Hackintosh with OpenCore
 
+- 2022.1.12 更新OC到0.7.7，Kext到最新
 - 2021.12.20 重新定制USB，再次尝试修复睡眠后XDCI设备间歇唤醒问题
 - 2021.12.17 修复唤醒后进入睡眠，会被 XDCI 设备间歇唤醒问题
 - 2021.12.15 修复睡眠后 2 小时会被 RTC 唤醒一次的问题
@@ -17,7 +18,7 @@
 | 显示器      | 联合创新 27C1U 4K/60Hz       |
 | WIFI 和蓝牙 | DW1560                       |
 | 硬盘        | 阿斯加特 2TB NVME            |
-| 显卡        | CPU 集成显卡 UHD 630         |
+| 显卡        | CPU 集成显卡 UHD 630 + RX 6600XT       |
 | BIOS 版本   | E7C731MS.1A0                 |
 
 ---
@@ -41,7 +42,7 @@
 | BIOS 项                   | 状态 |
 | ------------------------- | ---- |
 | CFG 锁定                  | 禁止 |
-| USB 设备从 S3/S4/S5 唤醒  | 允许 |
+| USB 设备从 S3/S4/S5 唤醒  | 禁止 |
 | 集成显卡多显示器          | 允许 |
 | SW Guard Extensions (SGX) | 禁止 |
 | 快速开机                  | 禁止 |
@@ -59,6 +60,8 @@
 
 
 ---
+
+### 如果你没有独立显卡，则用config-UHD630.plist替换config.plist；如果你是AMD独显，但是不是RX5000及以上系列，则把config.plist的启动参数中的agdpmod=pikera去掉
 
 ![back-panel](/images/back-panel.png)
 
