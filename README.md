@@ -2,6 +2,7 @@
 
 ### EFI of MSI Z490 Carbon Gaming WIFI Hackintosh with OpenCore
 
+- 2022.4.26 更新OC到0.8.0，Kext到最新
 - 2022.3.20 更新OC到0.7.9，Kext到最新
 - 2022.2.16 更新OC到0.7.8，Kext到最新
 - 2022.1.12 更新OC到0.7.7，Kext到最新
