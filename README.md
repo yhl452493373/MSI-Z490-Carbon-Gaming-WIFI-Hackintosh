@@ -1,6 +1,6 @@
 # MSI-Z490-Carbon-Gaming-WIFI-Hackintosh
 
-### EFI of MSI Z490 Carbon Gaming WIFI Hackintosh with OpenCore
+### EFI of MSI Z490 Carbon Gaming WIFI Hackintosh with OpenCore and BIOS E7C73IMS.1B0
 
 - 2022.4.26 更新OC到0.8.0，Kext到最新
 - 2022.3.20 更新OC到0.7.9，Kext到最新
@@ -22,7 +22,7 @@
 | WIFI 和蓝牙 | DW1560                       |
 | 硬盘        | 阿斯加特 2TB NVME            |
 | 显卡        | CPU 集成显卡 UHD 630 + RX 6600XT       |
-| BIOS 版本   | E7C731MS.1A0                 |
+| BIOS 版本   | `E7C73IMS.1B0`              |
 
 ---
 

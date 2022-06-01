@@ -33,7 +33,7 @@
 				<key>IOPropertyMatch</key>
 				<dict>
 					<key>pcidebug</key>
-					<string>1:0:0</string>
+					<string>4:0:0</string>
 				</dict>
 			</dict>
 			<key>IOProviderClass</key>
