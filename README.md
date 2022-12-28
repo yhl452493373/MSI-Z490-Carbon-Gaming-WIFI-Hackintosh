@@ -2,7 +2,7 @@
 
 ### EFI of MSI Z490 Carbon Gaming WIFI Hackintosh with OpenCore and BIOS `7C73v1C`
 
-**2022.6.7及以后更新的USBMap.kext仅适用于BIOS `7C73v1C`**
+**2022.12.20及以后更新的USBMap.kext仅适用于BIOS `7C73v1C`**
 
 - 2022.12.20 更新OC到0.8.7，Kext到最新；针对 BIOS `7C73v1C` 重新定制USB端口。
 - 2022.9.17 更新OC到0.8.4，Kext到最新；
