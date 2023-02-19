@@ -4,7 +4,7 @@
 
 ### EFI of MSI Z490 Carbon Gaming WIFI Hackintosh with OpenCore and BIOS `7C73v1C`
 
-**2022.6.7及以后更新的USBMap.kext仅适用于BIOS `7C73v1C`**
+**2022.12.20及以后更新的USBMap.kext仅适用于BIOS `7C73v1C`**
 
 ##2023.2.19及以后，我使用的无线网卡为免驱卡，为了解决因BlueToothFixup.kext导致的macOS Ventura无法增量更新问题，本次及以后的oc配置中都会将蓝牙相关的kext驱动删除。如果你需要这些驱动，请自行下载。同时，为了能增量更新，每次更新前需要将BlueToothFixup.kext禁用，更新完成后再启用。
 
