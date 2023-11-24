@@ -1,0 +1,8 @@
+根据情况，复制对应的配置文件，并改名为config.plist。默认启用的为 config-IGD.plist
+
+config-IGD.plist —— macOS仅使用集显。CPU带集成显卡，显示器接主板DP接口。macOS下只有集成显卡工作，独立显卡无法使用；windows下独显正常使用，3dmark测试下，CPU有10%左右性能损失，独立显卡有5%左右性能损失
+config-PEG.plist —— macOS使用独显，集显作为加速卡。CPU带集成显卡，显示器接独立显卡DP接口。macOS下只有独立显卡工作，集成显卡作为加速卡；windows下显示器接独立显卡DP接口，则独立显卡满血工作；接主板DP接口，则独显正常使用，3dmark测试下，CPU有10%左右性能损失，独立显卡有5%左右性能损失。
+
+以上配置文件中，此配置中，EFI - Output 下UIScale为0，即OpenCore启动时自行检引导过程是否开启HiDPI。如果要强行开启UIScale，则将配置文件 EFI - Output 下UIScale设置为2。强行设置UIScale为2时，某些显卡会在引导过程中崩溃并重启多次才能进系统（我的蓝宝石超白金的6800XT就是），此时有两种解决方法：
+1、使用config-PEG.plist，且在UEFI - Output中把UIScale设为0或者-1（Nvram里面的UIScale删除）,把显示器接独立显卡DP接口
+2、使用config-IGD.plist，且在UEFI - Output中把UIScale设为0或者2（Nvram里面的UIScale删除），把显示器接主板DP接口
