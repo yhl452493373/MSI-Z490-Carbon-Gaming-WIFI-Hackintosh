@@ -1,3 +1,5 @@
+# 我的Z490 Carbon Gaming WIFI主板已经炸了，换成了技不如人嘉的Z490 AROUS MASTER，此EFI停止更新
+
 # MSI-Z490-Carbon-Gaming-WIFI-Hackintosh
 
 # 禁止用于商业用途
